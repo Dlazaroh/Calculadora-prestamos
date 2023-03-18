@@ -5,14 +5,14 @@ Los siguientes pasos te servira para poder tener una copia del proyecto funciona
 ##Pre requisitos :clipboard:
 Para instalar el software necesitas tener instalado lo siguiente:
 
-```bash
+``` bash
 Un servidor web local para poder crear y probar sitios web.
 Un ejemplo puede ser [Xampp](https://www.apachefriends.org/) 
 Adicional debes contar con un editor de código uno muy bueno y liviano es [Sublime Text](https://www.sublimetext.com/)
 ```
-##Instalación :wrench:
+## Instalación :wrench:
 Esta es la secuencia de pasos que necesitar realizar
-```bash
+``` bash
 Instalando `XAMPP`
 `Paso 1 Descarga`
 La version 3.* en adelante te sera de ayuda desde el sitio oficial [XAMPP](https://www.apachefriends.org/)
