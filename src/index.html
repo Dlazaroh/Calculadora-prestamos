@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora prestamo</title>
+        <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <p>Monto a cargar
+                <input onchange="calcularcarga()"  class="input" type="number" id="monto-carga" 
+                min="1" max="700000" value="1000">
+            </p>
+            <p>% Interes
+                <input onchange="calcularcarga()" class="input" type="number" id="porcentaje-interes" 
+                min="0" max="20" value="10" step=".1">
+            </p>
+            <p>Pago en meses
+                <input onchange="calcularcarga()" class="input" type="number" id="pago-por-meses" 
+                min="6" max="60" value="12">
+            </p>
+            <p class="pago" id="pago">Mensualidad: </p>
+        </div>
+        <script src="../js/index.js"></script>
+    </body>
+</html>
